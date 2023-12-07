@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    margin: 0; 
+}
+
+.Thumbnails-Container-component {
+    height: 250px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Thumbnail-Container{
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.39);
+    border-radius: 5px;
+    /* backdrop-filter: blur(5px); */
+}
+
+.movie-Thumbnail{
+    height: 100%;
+    width: 150px;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.movie-Thumbnail:hover{
+    transform: scale(0.9);
+    transition: transform 0.9s ease-in-out;
+    box-shadow: rgb(88, 88, 241) 0px 0px 10px;
+}
+
+.InWatchlist{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(40, 158, 40);
+    font-display: bold;
+    border-radius: 10px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
